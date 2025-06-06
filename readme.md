@@ -6,8 +6,8 @@
         Maintainer: Jason Dreyzehner
         Status: Draft
         Initial Publication Date: 2025-05-31
-        Latest Revision Date: 2025-05-31
-        Version: 1.0.0
+        Latest Revision Date: 2025-06-06
+        Version: 1.1.0
 
 ## Summary
 
@@ -64,9 +64,9 @@ The `OP_LSHIFTNUM` opcode is defined at codepoint `0x8d` (`141`) with the follow
 
 #### OP_LSHIFTNUM Clarifications
 
-1. If the stack is empty (no `bit_count`), error. If the popped item is not a VM Number, error. If the bit count is outside of the range `0` to `8` times the [Maximum Stack Item Length](https://github.com/bitjson/bch-vm-limits#increased-stack-element-length-limit) (inclusive), error. See [Rationale: Disallowance of Negative Shifts](./rationale.md#disallowance-of-negative-shifts) and [Rationale: Equivalent Range Limit Across Shift Operations](./rationale.md#equivalent-range-limit-across-shift-operations). Note that Maximum Stack Item Length may be increased by future upgrades. See [Notice of Possible Future Expansion](#notice-of-possible-future-expansion).
+1. If the stack is empty (no `bit_count`), error. If the popped item is not a VM Number, error. If the bit count is negative, error. See [Rationale: Disallowance of Negative Shifts](./rationale.md#disallowance-of-negative-shifts) and [Rationale: Predictable Handling of Excessive Shift Operations](rationale.md#predictable-handling-of-excessive-shift-operations). Note that Maximum Stack Item Length may be increased by future upgrades. See [Notice of Possible Future Expansion](#notice-of-possible-future-expansion).
 2. If the stack is empty (no `valid_number`), error. If the popped item is not a valid VM Number, error.
-3. If the byte length of the result would exceed the [Maximum Stack Item Length](https://github.com/bitjson/bch-vm-limits#increased-stack-element-length-limit), error. The [Operation Cost](http://github.com/bitjson/bch-vm-limits#operation-cost-limit) of `OP_LSHIFTNUM` is the [Base Instruction Cost](https://github.com/bitjson/bch-vm-limits?#base-instruction-cost) plus the length of the pushed result (see [Rationale: Calculation of Operation Costs](./rationale.md#calculation-of-operation-costs)). Note that the length of the output VM number may differ from the length of the input VM number.
+3. If the byte length of the result would exceed the [Maximum Stack Item Length](https://github.com/bitjson/bch-vm-limits#increased-stack-element-length-limit), error (implementations may optionally fast-fail such shifts). The [Operation Cost](http://github.com/bitjson/bch-vm-limits#operation-cost-limit) of `OP_LSHIFTNUM` is the [Base Instruction Cost](https://github.com/bitjson/bch-vm-limits?#base-instruction-cost) plus the length of the pushed result (see [Rationale: Calculation of Operation Costs](./rationale.md#calculation-of-operation-costs)). Note that the length of the output VM number may differ from the length of the input VM number.
 
 </small>
 
@@ -86,9 +86,9 @@ The `OP_RSHIFTNUM` opcode is defined at codepoint `0x8e` (`142`) with the follow
 
 #### OP_RSHIFTNUM Clarifications
 
-1. If the stack is empty (no `bit_count`), error. If the popped item is not a VM Number, error. If the bit count is outside of the range `0` to `8` times the [Maximum Stack Item Length](https://github.com/bitjson/bch-vm-limits#increased-stack-element-length-limit) (inclusive), error. See [Rationale: Disallowance of Negative Shifts](./rationale.md#disallowance-of-negative-shifts) and [Rationale: Equivalent Range Limit Across Shift Operations](./rationale.md#equivalent-range-limit-across-shift-operations). Note that Maximum Stack Item Length may be increased by future upgrades. See [Notice of Possible Future Expansion](#notice-of-possible-future-expansion).
+1. If the stack is empty (no `bit_count`), error. If the popped item is not a VM Number, error. If the bit count is negative, error. See [Rationale: Disallowance of Negative Shifts](./rationale.md#disallowance-of-negative-shifts) and [Rationale: Predictable Handling of Excessive Shift Operations](rationale.md#predictable-handling-of-excessive-shift-operations). Note that Maximum Stack Item Length may be increased by future upgrades. See [Notice of Possible Future Expansion](#notice-of-possible-future-expansion).
 2. If the stack is empty (no `valid_number`), error. If the popped item is not a valid VM Number, error.
-3. The common behavior in Two's Complement right shifts (and the behavior standardized in C++20). See [Rationale: Behavior of Arithmetic Right Shifts on Negative Values](./rationale.md#behavior-of-arithmetic-right-shifts-on-negative-values).
+3. The common behavior in Two's Complement right shifts (and the behavior standardized in C++20). See [Rationale: Behavior of Arithmetic Right Shifts on Negative Values](./rationale.md#behavior-of-arithmetic-right-shifts-on-negative-values). Implementations may optionally include a faster return path for excessive shifts (`0` for excessive shifts on positive values or `-1` for excessive shifts on negative values).
 4. The [Operation Cost](http://github.com/bitjson/bch-vm-limits#operation-cost-limit) of `OP_RSHIFTNUM` is the [Base Instruction Cost](https://github.com/bitjson/bch-vm-limits?#base-instruction-cost) plus the length of the pushed result (see [Rationale: Calculation of Operation Costs](./rationale.md#calculation-of-operation-costs)). Note that the length of the output VM number may differ from the length of the input VM number.
 
 </small>
@@ -105,15 +105,16 @@ The `OP_LSHIFTBIN` opcode is defined at codepoint `0x98` (`152`) with the follow
 
 1. Pop the top item from the stack as a bit count (VM number).<sup>1</sup>
 2. Pop the next item from the stack as the binary data to shift.<sup>2</sup>
-3. Perform a fixed-length, logical left shift of the data by the bit count, shifting-in `0` bits from the right and dropping shifted-out bits on the left, then push the result to the stack.<sup>3</sup>
+3. Perform a fixed-length, logical left shift of the data by the bit count, shifting-in `0` bits from the right and dropping shifted-out bits on the left<sup>3</sup>, then push the result to the stack.<sup>4</sup>
 
 <small>
 
 #### OP_LSHIFTBIN Clarifications
 
-1. If the stack is empty (no `bit_count`), error. If the popped item is not a VM Number, error. If the bit count is outside of the range `0` to `8` times the [Maximum Stack Item Length](https://github.com/bitjson/bch-vm-limits#increased-stack-element-length-limit) (inclusive), error. See [Rationale: Disallowance of Negative Shifts](./rationale.md#disallowance-of-negative-shifts) and [Rationale: Equivalent Range Limit Across Shift Operations](./rationale.md#equivalent-range-limit-across-shift-operations). Note that Maximum Stack Item Length may be increased by future upgrades. See [Notice of Possible Future Expansion](#notice-of-possible-future-expansion).
-2. If the stack is empty (no `binary_data`), error. Note that any stack item is a valid input; zero-byte values return a zero-byte value.
-3. The [Operation Cost](http://github.com/bitjson/bch-vm-limits#operation-cost-limit) of `OP_LSHIFTBIN` is the [Base Instruction Cost](https://github.com/bitjson/bch-vm-limits?#base-instruction-cost) plus the length of the pushed result (see [Rationale: Calculation of Operation Costs](./rationale.md#calculation-of-operation-costs)). Note that the length of the result is always equal to the length of the input. See [Rationale: Fixed-Length Result of Binary Shifts](./rationale.md#fixed-length-result-of-binary-shifts).
+1. If the stack is empty (no `bit_count`), error. If the popped item is not a VM Number, error. If the bit count is negative, error. See [Rationale: Disallowance of Negative Shifts](./rationale.md#disallowance-of-negative-shifts) and [Rationale: Predictable Handling of Excessive Shift Operations](rationale.md#predictable-handling-of-excessive-shift-operations). Note that Maximum Stack Item Length may be increased by future upgrades. See [Notice of Possible Future Expansion](#notice-of-possible-future-expansion).
+2. If the stack is empty (no `binary_data`), error. Note that any stack item is a valid input; zero-byte inputs produce a zero-byte output.
+3. Implementations may optionally include a faster return path for excessive shifts (returning an appropriately-sized, zero-filled stack item).
+4. The [Operation Cost](http://github.com/bitjson/bch-vm-limits#operation-cost-limit) of `OP_LSHIFTBIN` is the [Base Instruction Cost](https://github.com/bitjson/bch-vm-limits?#base-instruction-cost) plus the length of the pushed result (see [Rationale: Calculation of Operation Costs](./rationale.md#calculation-of-operation-costs)). Note that the length of the result is always equal to the length of the input. See [Rationale: Fixed-Length Result of Binary Shifts](./rationale.md#fixed-length-result-of-binary-shifts).
 
 </small>
 
@@ -127,21 +128,22 @@ The `OP_RSHIFTBIN` opcode is defined at codepoint `0x99` (`153`) with the follow
 
 1. Pop the top item from the stack as a bit count (VM number).<sup>1</sup>
 2. Pop the next item from the stack as the binary data to shift.<sup>2</sup>
-3. Perform a fixed-length, logical right shift of the data by the bit count, shifting-in `0` bits from the left and dropping shifted-out bits on the right, then push the result to the stack.<sup>3</sup>
+3. Perform a fixed-length, logical right shift of the data by the bit count, shifting-in `0` bits from the left and dropping shifted-out bits on the right<sup>3</sup>, then push the result to the stack.<sup>4</sup>
 
 <small>
 
 #### OP_RSHIFTBIN Clarifications
 
-1. If the stack is empty (no `bit_count`), error. If the popped item is not a VM Number, error. If the bit count is outside of the range `0` to `8` times the [Maximum Stack Item Length](https://github.com/bitjson/bch-vm-limits#increased-stack-element-length-limit) (inclusive), error. See [Rationale: Disallowance of Negative Shifts](./rationale.md#disallowance-of-negative-shifts) and [Rationale: Equivalent Range Limit Across Shift Operations](./rationale.md#equivalent-range-limit-across-shift-operations). Note that Maximum Stack Item Length may be increased by future upgrades. See [Notice of Possible Future Expansion](#notice-of-possible-future-expansion).
-2. If the stack is empty (no `binary_data`), error. Note that any stack item is a valid input; zero-byte values return a zero-byte value.
-3. The [Operation Cost](http://github.com/bitjson/bch-vm-limits#operation-cost-limit) of `OP_LSHIFTBIN` is the [Base Instruction Cost](https://github.com/bitjson/bch-vm-limits?#base-instruction-cost) plus the length of the pushed result (see [Rationale: Calculation of Operation Costs](./rationale.md#calculation-of-operation-costs)). Note that the length of the result is always equal to the length of the input. See [Rationale: Fixed-Length Result of Binary Shifts](./rationale.md#fixed-length-result-of-binary-shifts).
+1. If the stack is empty (no `bit_count`), error. If the popped item is not a VM Number, error. If the bit count is negative, error. See [Rationale: Disallowance of Negative Shifts](./rationale.md#disallowance-of-negative-shifts) and [Rationale: Predictable Handling of Excessive Shift Operations](rationale.md#predictable-handling-of-excessive-shift-operations). Note that Maximum Stack Item Length may be increased by future upgrades. See [Notice of Possible Future Expansion](#notice-of-possible-future-expansion).
+2. If the stack is empty (no `binary_data`), error. Note that any stack item is a valid input; zero-byte inputs produce a zero-byte output.
+3. Implementations may optionally include a faster return path for excessive shifts (returning an appropriately-sized, zero-filled stack item).
+4. The [Operation Cost](http://github.com/bitjson/bch-vm-limits#operation-cost-limit) of `OP_RSHIFTBIN` is the [Base Instruction Cost](https://github.com/bitjson/bch-vm-limits?#base-instruction-cost) plus the length of the pushed result (see [Rationale: Calculation of Operation Costs](./rationale.md#calculation-of-operation-costs)). Note that the length of the result is always equal to the length of the input. See [Rationale: Fixed-Length Result of Binary Shifts](./rationale.md#fixed-length-result-of-binary-shifts).
 
 </small>
 
 ### Notice of Possible Future Expansion
 
-While unusual, it is possible to design pre-signed transactions, contract systems, and protocols which rely on the rejection of otherwise-valid transactions made invalid only by specifically exceeding one or more current VM limits. This proposal interprets such failure-reliant constructions as intentional – the constructions are designed to fail unless/until a possible future network upgrade in which such limits are increased, e.g. upgrade-activation futures contracts. Contract authors are advised that future upgrades may raise VM limits by increasing [Maximum Stack Item Length](https://github.com/bitjson/bch-vm-limits#increased-stack-element-length-limit), or otherwise. See [Limits CHIP Rationale: Inclusion of "Notice of Possible Future Expansion"](https://github.com/bitjson/bch-vm-limits/blob/master/rationale.md#inclusion-of-notice-of-possible-future-expansion).
+While unusual, it is possible to design pre-signed transactions, contract systems, and protocols which rely on the rejection of otherwise-valid transactions made invalid only by specifically exceeding one or more current VM limits. This proposal interprets such failure-reliant constructions as intentional – the constructions are designed to fail unless/until a possible future network upgrade in which such limits are increased, e.g. upgrade-activation futures contracts. Contract authors are advised that future upgrades may raise VM limits by increasing [Maximum Stack Item Length](https://github.com/bitjson/bch-vm-limits#increased-stack-element-length-limit) (A.K.A. `MAX_SCRIPT_ELEMENT_SIZE`), maximum bytecode length (A.K.A. `MAX_SCRIPT_SIZE`), or otherwise. See [Limits CHIP Rationale: Inclusion of "Notice of Possible Future Expansion"](https://github.com/bitjson/bch-vm-limits/blob/master/rationale.md#inclusion-of-notice-of-possible-future-expansion).
 
 ## Rationale
 
@@ -149,7 +151,7 @@ While unusual, it is possible to design pre-signed transactions, contract system
   - [Behavior of Arithmetic Right Shifts on Negative Values](rationale.md#behavior-of-arithmetic-right-shifts-on-negative-values)
   - [Fixed-Length Result of Binary Shifts](rationale.md#fixed-length-result-of-binary-shifts)
   - [Disallowance of Negative Shifts](rationale.md#disallowance-of-negative-shifts)
-  - [Equivalent Range Limit Across Shift Operations](rationale.md#equivalent-range-limit-across-shift-operations)
+  - [Predictable Handling of Excessive Shift Operations](rationale.md#predictable-handling-of-excessive-shift-operations)
   - [Calculation of Operation Costs](rationale.md#calculation-of-operation-costs)
 
 ## Evaluations of Alternatives
@@ -181,8 +183,7 @@ Please see the following implementations for examples and additional test vector
 ## Feedback & Reviews
 
 - [Bitwise CHIP Issues](https://github.com/bitjson/bch-bitwise/issues)
-- [`Re-enable remaining bitwise opcodes in 2026?` - Bitcoin Cash Research](https://bitcoincashresearch.org/t/re-enable-remaining-bitwise-opcodes-in-2026/1580)
-- [`CHIP 2025-05 Bitwise: Re-Enable Bitwise Operations` - Bitcoin Cash Research](https://bitcoincashresearch.org/t/???)
+- [`CHIP 2025-05 Bitwise: Re-Enable Bitwise Operations` - Bitcoin Cash Research](https://bitcoincashresearch.org/t/chip-2025-05-bitwise-re-enable-bitwise-operations/1580)
 
 ## Acknowledgements
 
@@ -193,6 +194,8 @@ Thank you to the following contributors for reviewing and contributing improveme
 
 This section summarizes the evolution of this document.
 
+- **v1.1.0 – 2025-06-06**
+  - More predictable handling of excessive shifts (#2)
 - **v1.0.0 – 2025-05-31**
   - Initial publication
 

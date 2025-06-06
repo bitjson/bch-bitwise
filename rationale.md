@@ -39,11 +39,11 @@ However, the bidirectional alternative (if not activated in addition to unidirec
 2. 3+ bytes: eliminating `OP_IF [...] OP_ELSE [...] OP_ENDIF` and any additional stack manipulation operations required of the conditional-based alternative.
 3. E.g. within a loop, a duplication and logical shift inspecting bits in some value from left-to-right-to-left, vice versa – rather than a typical, unidirectional inspection.
 
-## Equivalent Range Limit Across Shift Operations
+## Predictable Handling of Excessive Shift Operations
 
-This proposal imposes the same limitation on the acceptable range of shift counts – `0` to `8` times [Maximum Stack Item Length](https://github.com/bitjson/bch-vm-limits#increased-stack-element-length-limit) (inclusive; currently `80,000` bits) – across all shift operations, while explicitly giving notice of possible future increases in the range's upper limit.
+This proposal requires only that shift operations specify non-negative bit counts. All shifts greater than or equal to `0` are valid, with clear, consistent behavior: binary shifts continue to "clear" (zero-fill) bits up to and beyond the item's length, excessive right arithmetic shifts correctly result in `0` or `-1` (see [Behavior of Arithmetic Right Shifts on Negative Values](#behavior-of-arithmetic-right-shifts-on-negative-values)), and left shifts fail only for results which would be rejected due to stack item length limits (matching `OP_MUL`; implementations may optionally include a fast-failure path).
 
-This proposal's approach improves the predictability of each operation, minimizes room for implementation error (e.g. the [`OP_RSHIFT` crash](https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node/-/commit/c4319e678f693d5fbc49bd357ded1c8f951476e9) and more widely-known [`CVE-2010-5137` `OP_LSHIFT` crash](https://nvd.nist.gov/vuln/detail/CVE-2010-5137)), reduces overall protocol complexity, and enables future upgrades to safely increase the Maximum Stack Item Length limit.
+This proposal's behavior aligns with the existing numeric operations, maximizes the predictability of shift operations (by eliminating potentially-unexpected failures due to excessive shifts by otherwise-valid VM numbers), minimizes room for implementation-specific errors (e.g. the [`OP_RSHIFT` crash](https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node/-/commit/c4319e678f693d5fbc49bd357ded1c8f951476e9) and [`CVE-2010-5137` `OP_LSHIFT` crash](https://nvd.nist.gov/vuln/detail/CVE-2010-5137)), and reduces overall protocol complexity.
 
 ## Calculation of Operation Costs
 
