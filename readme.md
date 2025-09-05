@@ -6,8 +6,8 @@
         Maintainer: Jason Dreyzehner
         Status: Draft
         Initial Publication Date: 2025-05-31
-        Latest Revision Date: 2025-06-06
-        Version: 1.1.0
+        Latest Revision Date: 2025-09-05
+        Version: 1.1.1
 
 ## Summary
 
@@ -194,6 +194,8 @@ Thank you to the following contributors for reviewing and contributing improveme
 
 This section summarizes the evolution of this document.
 
+- **v1.1.1 – 2025-09-05**
+  - Update VMB tests and benchmarks
 - **v1.1.0 – 2025-06-06**
   - More predictable handling of excessive shifts (#2)
 - **v1.0.0 – 2025-05-31**
