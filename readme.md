@@ -194,7 +194,7 @@ Thank you to the following contributors for reviewing and contributing improveme
 
 This section summarizes the evolution of this proposal.
 
-- **v1.1.1 – 2025-09-05** ([`a432a19b`](https://github.com/bitjson/bch-bitwise/commit/a432a19bcbc597391d0f0a29ae62a902b575d1dd) – [diff vs. `master`](https://github.com/bitjson/bch-bitwise/compare/master...a432a19bcbc597391d0f0a29ae62a902b575d1dd))
+- **v1.1.1 – 2025-09-05** ([`a432a19b`](https://github.com/bitjson/bch-bitwise/commit/a432a19bcbc597391d0f0a29ae62a902b575d1dd) – [diff vs. `master`](https://github.com/bitjson/bch-bitwise/compare/a432a19bcbc597391d0f0a29ae62a902b575d1dd...master))
   - Update VMB tests and benchmarks
 - **v1.1.0 – 2025-06-09** ([`1c954588`](https://github.com/bitjson/bch-bitwise/commit/1c954588ab971f5848844f44485fafe6d31bef56))
   - More predictable handling of excessive shifts ([#2](https://github.com/bitjson/bch-bitwise/pull/2))
