@@ -73,541 +73,541 @@ Responses to this standard communication are recorded for all organizations that
 
 Responses from open source node and virtual machine (VM) implementations that support Bitcoin Cash.
 
-| Implementation                                    | As of Version | Approve | Disapprove | Neutral | Pending |
-| ------------------------------------------------- | :-----------: | :-----: | :--------: | :-----: | :-----: |
-| [AlbaDsl](https://github.com/albaDsl/alba-dsl)    |   `v1.1.1`    |   ✅    |            |         |         |
-| [BCHD](https://bchd.cash/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcoin Cash Node](https://bitcoincashnode.org/) |   `v1.1.1`    |   ✅    |            |         |         |
-| [Bitcoin Verde](https://bitcoinverde.org/)        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Flowee](https://flowee.org/products/hub/)        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Libauth](https://libauth.org/)                   |   `v1.1.1`    |   ✅    |            |         |         |
-| [Knuth](https://kth.cash/)                        |   `v1.1.1`    |   ✅    |            |         |         |
+| Implementation                                    | As of Version | Approve | Disapprove | Neutral |
+| ------------------------------------------------- | :-----------: | :-----: | :--------: | :-----: |
+| [AlbaDsl](https://github.com/albaDsl/alba-dsl)    |   `v1.1.1`    |   ✅    |            |         |
+| [BCHD](https://bchd.cash/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin Cash Node](https://bitcoincashnode.org/) |   `v1.1.1`    |   ✅    |            |         |
+| [Bitcoin Verde](https://bitcoinverde.org/)        |   `v1.1.1`    |         |            |   ➖    |
+| [Flowee](https://flowee.org/products/hub/)        |   `v1.1.1`    |         |            |   ➖    |
+| [Libauth](https://libauth.org/)                   |   `v1.1.1`    |   ✅    |            |         |
+| [Knuth](https://kth.cash/)                        |   `v1.1.1`    |   ✅    |            |         |
 
 ### Wallets
 
 Responses from wallets that support Bitcoin Cash.
 
-| Wallet                                                           | As of Version | Approve | Disapprove | Neutral | Pending |
-| ---------------------------------------------------------------- | :-----------: | :-----: | :--------: | :-----: | :-----: |
-| [Amagi Wallet](https://amagi.finance/)                           |   `v1.1.1`    |   ✅    |            |         |         |
-| [Atomic Wallet](https://atomicwallet.io/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [`bchwallet`](https://github.com/gcash/bchwallet)                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcoin.com Wallet](https://wallet.bitcoin.com/)                |   `v1.1.1`    |   ✅    |            |         |         |
-| [BitPay Wallet](https://bitpay.com/wallet)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitpie](https://bitpie.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BlockParty Wallet](https://blockparty.sh/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Cashonize](https://cashonize.com/)                              |   `v1.1.1`    |   ✅    |            |         |         |
-| [CashAddress.org](https://cashaddress.org/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Cashual Wallet](https://gitlab.com/monsterbitar/cashual-wallet) |   `v1.1.1`    |   ✅    |            |         |         |
-| [Cake Wallet](https://cakewallet.com/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coin Wallet](https://coin.space/)                               |   `v1.1.1`    |         |     ❌     |         |         |
-| [CoinEx Wallet](https://wallet.coinex.com/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coinomi](https://www.coinomi.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoolWallet](https://www.coolwallet.io/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Crypto.com DeFi Wallet](https://crypto.com/defi-wallet)         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Cwallet](https://cwallet.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Edge](https://edge.app/)                                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Electron Cash](https://electroncash.org/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Ellipal Wallet](https://www.ellipal.com/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Exodus](https://www.exodus.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Flowee Pay](https://flowee.org/products/pay/)                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [FullStack.Cash](https://fullstack.cash/)                        |   `v1.1.1`    |         |            |   ➖    |         |
-| [Guarda](https://guarda.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [imToken](https://token.im/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [KeepKey](https://shapeshift.com/keepkey)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Keevo Wallet](https://www.keevowallet.com/)                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Komodo Wallet](https://komodoplatform.com/)                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Ledger](https://www.ledger.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Melis](https://www.melis.io/)                                   |   `v1.1.1`    |   ✅    |            |         |         |
-| [MentaFresca](https://mentafresca.space/)                        |   `v1.1.1`    |   ✅    |            |         |         |
-| [MetaMask](https://metamask.io/)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Neutrino Wallet](https://neutrino.cash/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [OneKey](https://onekey.so/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Opal Wallet](https://opalwallet.cash)                           |   `v1.1.1`    |   ✅    |            |         |         |
-| [OPTN](https://www.optnlabs.com/)                                |   `v1.1.1`    |   ✅    |            |         |         |
-| [Payperless](https://www.payperless.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Paytaca](https://www.paytaca.com/)                              |   `v1.1.1`    |   ✅    |            |         |         |
-| [PurelyPeer](https://purelypeer.cash/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SafePal](https://safepal.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Satochip](https://satochip.io/)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Selene Wallet](https://selene.cash/)                            |   `v1.1.1`    |   ✅    |            |         |         |
-| [Stack Wallet](https://stackwallet.com/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Tangem](https://tangem.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [TotalSig](https://www.totalsig.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Trezor](https://trezor.io/)                                     |   `v1.1.1`    |         |            |   ➖    |         |
-| [Trust Wallet](https://trustwallet.com/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Trustee Plus](https://trusteeglobal.com/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Unstoppable Wallet](https://unstoppable.money/)                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Verde Wallet](https://github.com/SoftwareVerde/verde-wallet)    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [West Wallet](https://westwallet.io/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [XDEFI Wallet](https://www.xdefi.io/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [XO.cash](https://xo.cash/)                                      |   `v1.1.1`    |   ✅    |            |         |         |
-| [Zapit](https://www.zapit.io/)                                   |   `v1.1.1`    |   ✅    |            |         |         |
+| Wallet                                                           | As of Version | Approve | Disapprove | Neutral |
+| ---------------------------------------------------------------- | :-----------: | :-----: | :--------: | :-----: |
+| [Amagi Wallet](https://amagi.finance/)                           |   `v1.1.1`    |   ✅    |            |         |
+| [Atomic Wallet](https://atomicwallet.io/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [`bchwallet`](https://github.com/gcash/bchwallet)                |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin.com Wallet](https://wallet.bitcoin.com/)                |   `v1.1.1`    |   ✅    |            |         |
+| [BitPay Wallet](https://bitpay.com/wallet)                       |   `v1.1.1`    |         |            |   ➖    |
+| [Bitpie](https://bitpie.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [BlockParty Wallet](https://blockparty.sh/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Cashonize](https://cashonize.com/)                              |   `v1.1.1`    |   ✅    |            |         |
+| [CashAddress.org](https://cashaddress.org/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Cashual Wallet](https://gitlab.com/monsterbitar/cashual-wallet) |   `v1.1.1`    |   ✅    |            |         |
+| [Cake Wallet](https://cakewallet.com/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [Coin Wallet](https://coin.space/)                               |   `v1.1.1`    |         |     ❌     |         |
+| [CoinEx Wallet](https://wallet.coinex.com/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Coinomi](https://www.coinomi.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [CoolWallet](https://www.coolwallet.io/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [Crypto.com DeFi Wallet](https://crypto.com/defi-wallet)         |   `v1.1.1`    |         |            |   ➖    |
+| [Cwallet](https://cwallet.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Edge](https://edge.app/)                                        |   `v1.1.1`    |         |            |   ➖    |
+| [Electron Cash](https://electroncash.org/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [Ellipal Wallet](https://www.ellipal.com/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [Exodus](https://www.exodus.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Flowee Pay](https://flowee.org/products/pay/)                   |   `v1.1.1`    |         |            |   ➖    |
+| [FullStack.Cash](https://fullstack.cash/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Guarda](https://guarda.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [imToken](https://token.im/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [KeepKey](https://shapeshift.com/keepkey)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Keevo Wallet](https://www.keevowallet.com/)                     |   `v1.1.1`    |         |            |   ➖    |
+| [Komodo Wallet](https://komodoplatform.com/)                     |   `v1.1.1`    |         |            |   ➖    |
+| [Ledger](https://www.ledger.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Melis](https://www.melis.io/)                                   |   `v1.1.1`    |   ✅    |            |         |
+| [MentaFresca](https://mentafresca.space/)                        |   `v1.1.1`    |   ✅    |            |         |
+| [MetaMask](https://metamask.io/)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [Neutrino Wallet](https://neutrino.cash/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [OneKey](https://onekey.so/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [Opal Wallet](https://opalwallet.cash)                           |   `v1.1.1`    |   ✅    |            |         |
+| [OPTN](https://www.optnlabs.com/)                                |   `v1.1.1`    |   ✅    |            |         |
+| [Payperless](https://www.payperless.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Paytaca](https://www.paytaca.com/)                              |   `v1.1.1`    |   ✅    |            |         |
+| [PurelyPeer](https://purelypeer.cash/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [SafePal](https://safepal.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Satochip](https://satochip.io/)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [Selene Wallet](https://selene.cash/)                            |   `v1.1.1`    |   ✅    |            |         |
+| [Stack Wallet](https://stackwallet.com/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [Tangem](https://tangem.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [TotalSig](https://www.totalsig.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Trezor](https://trezor.io/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [Trust Wallet](https://trustwallet.com/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [Trustee Plus](https://trusteeglobal.com/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [Unstoppable Wallet](https://unstoppable.money/)                 |   `v1.1.1`    |         |            |   ➖    |
+| [Verde Wallet](https://github.com/SoftwareVerde/verde-wallet)    |   `v1.1.1`    |         |            |   ➖    |
+| [West Wallet](https://westwallet.io/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [XDEFI Wallet](https://www.xdefi.io/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [XO.cash](https://xo.cash/)                                      |   `v1.1.1`    |   ✅    |            |         |
+| [Zapit](https://www.zapit.io/)                                   |   `v1.1.1`    |   ✅    |            |         |
 
 ### Projects
 
 Responses from open source libraries, indexers, educational resources, and community initiatives.
 
-| Project                                                                   | As of Version | Approve | Disapprove | Neutral | Pending |
-| ------------------------------------------------------------------------- | :-----------: | :-----: | :--------: | :-----: | :-----: |
-| [Accept Bitcoin Cash Initiative](https://acceptbitcoin.cash/)             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ActorForth](https://github.com/ActorForth/ActorForth)                    |   `v1.1.1`    |   ✅    |            |         |         |
-| [awesomebitcoin.cash](https://awesomebitcoin.cash/)                       |   `v1.1.1`    |   ✅    |            |         |         |
-| [bch.info](https://bch.info/)                                             |   `v1.1.1`    |   ✅    |            |         |         |
-| [BCH Bull](https://bchbull.com/)                                          |   `v1.1.1`    |   ✅    |            |         |         |
-| [BCH DevSuite](https://devsuite.actorforth.org/)                          |   `v1.1.1`    |   ✅    |            |         |         |
-| [BCH Bliss](https://www.bliss.cash/)                                      |   `v1.1.1`    |   ✅    |            |         |         |
-| [BCH Blaze](https://x.com/bchblaze)                                       |   `v1.1.1`    |   ✅    |            |         |         |
-| [BCH Festival](https://x.com/bchfestival)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BCH Latam](https://www.instagram.com/bchlatam/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BCH Works](https://bitcoincashsite.com/)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [`bch-rpc-explorer`](https://github.com/sickpig/bch-rpc-explorer)         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BCH-Cockpit](https://github.com/hosseinzoda/bchcockpit)                  |   `v1.1.1`    |   ✅    |            |         |         |
-| [`bchtipbot`](https://github.com/merc1er/bchtipbot)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BCHMempool.cash](https://bchmempool.cash/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BCHNinja](https://bch.ninja/)                                            |   `v1.1.1`    |   ✅    |            |         |         |
-| [BCMR Generator](https://github.com/mr-zwets/bcmr-generator)              |   `v1.1.1`    |   ✅    |            |         |         |
-| [BCMR Indexer](https://github.com/paytaca/bcmr-indexer)                   |   `v1.1.1`    |   ✅    |            |         |         |
-| [badgers.cash](https://badgers.cash)                                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [bestbchwallets.com](https://www.bestbchwallets.com/)                     |   `v1.1.1`    |   ✅    |            |         |         |
-| [Bitauth IDE](https://ide.bitauth.com)                                    |   `v1.1.1`    |   ✅    |            |         |         |
-| [BitCANN](https://github.com/BitCANN/bitcann-contracts)                   |   `v1.1.1`    |   ✅    |            |         |         |
-| [Bitcart](https://bitcart.ai/)                                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcash](https://github.com/pybitcash/bitcash)                           |   `v1.1.1`    |         |            |   ➖    |         |
-| [Bitcoin Cash Argentina](https://bitcoincashargentina.com/)               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcoin Cash City](https://bchcity.com)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcoin Cash Explorer](https://explorer.salemkode.com/)                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcoin Cash Foundation](https://bitcoincashfoundation.org/)             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcoin Cash Hangout](https://rss.com/podcasts/fiendishcrypto/)          |   `v1.1.1`    |   ✅    |            |         |         |
-| [Bitcoin Cash Podcast](https://bitcoincashpodcast.com/)                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcoin Cash TV](https://bitcoincashtv.com/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitcoinCash Nigeria](https://bch.ng/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitcoinCash.org](https://bitcoincash.org/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitcoinCashClient](https://github.com/david-shattuck/BitcoinCashClient)  |   `v1.1.1`    |   ✅    |            |         |         |
-| [BitcoinCashStandards.org](https://bitcoincashstandards.org/)             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitcoinCashResearch.org](https://bitcoincashresearch.org/)               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitcoinFees.cash](https://bitcoinfees.cash/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitcoinOutLoud](https://www.youtube.com/@BitcoinOutLoud)                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcore](https://github.com/bitpay/bitcore)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitrequest](https://www.bitrequest.io/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bmap.app](https://bmap.app/)                                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CashAccount.info](https://www.cashaccount.info/)                         |   `v1.1.1`    |   ✅    |            |         |         |
-| [CashChannels.org](http://cashchannels.org/)                              |   `v1.1.1`    |   ✅    |            |         |         |
-| [CashFusion.org](https://cashfusion.org/)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CashFusion Red Team](https://fusionstats.redteam.cash/)                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CashNodes.io](https://cashnodes.io/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [cashlab](https://github.com/hosseinzoda/cashlab)                         |   `v1.1.1`    |   ✅    |            |         |         |
-| [cashp](https://github.com/Ekliptor/cashp)                                |   `v1.1.1`    |   ✅    |            |         |         |
-| [CashScript](https://cashscript.org/)                                     |   `v1.1.1`    |   ✅    |            |         |         |
-| [CashTags](https://tags.infra.cash/)                                      |   `v1.1.1`    |   ✅    |            |         |         |
-| [CashTokens.org](https://cashtokens.org/)                                 |   `v1.1.1`    |   ✅    |            |         |         |
-| [CashTokens Airdrop Tool](https://github.com/mr-zwets/airdrop-tool)       |   `v1.1.1`    |   ✅    |            |         |         |
-| [CashTokens Studio](https://cashtokens.studio/)                           |   `v1.1.1`    |   ✅    |            |         |         |
-| [Chaingraph](https://chaingraph.cash/)                                    |   `v1.1.1`    |   ✅    |            |         |         |
-| [CasualBCH Podcast](casualbch.cash)                                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coin Center](https://www.coincenter.org/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Developers.Cash](https://developers.cash/)                               |   `v1.1.1`    |   ✅    |            |         |         |
-| [Discover.cash](https://discover.cash/)                                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Documentation.cash](https://documentation.cash/)                         |   `v1.1.1`    |   ✅    |            |         |         |
-| [Easier Flipstarter](https://gitlab.com/uak/easier-flipstarter)           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Flipstarter.cash](https://flipstarter.cash/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Flipstarters on Bitcoin Cash](https://flipstarters.bitcoincash.network/) |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Flipwatch](https://flipwatch.org/)                                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Flowee Products](https://flowee.org/products/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Fountainhead Cash](https://fountainhead.cash/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Fulcrum](https://github.com/cculianu/Fulcrum)                            |   `v1.1.1`    |   ✅    |            |         |         |
-| [Future Bitcoin Cash](https://futurebitcoin.cash)                         |   `v1.1.1`    |   ✅    |            |         |         |
-| [Googol.cash Testnet Faucet](https://tbch.googol.cash/)                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Haskoin](https://github.com/haskoin/haskoin-core)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Jedex](https://github.com/bitjson/jedex)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Johoe's Mempool Statistics](https://jochen-hoenicke.de/queue/)           |   `v1.1.1`    |   ✅    |            |         |         |
-| [HelpMe.Cash](https://helpme.cash/)                                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Hur project](https://hur-project.gitlab.io/hur-freelancers/)             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Kallisti.cash](https://kallisti.cash/)                                   |   `v1.1.1`    |   ✅    |            |         |         |
-| [Knuth Libraries](https://github.com/k-nuth)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Mainnet.cash](https://mainnet.cash/)                                     |   `v1.1.1`    |   ✅    |            |         |         |
-| [Meep](https://github.com/gcash/meep)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Melroy's BCH Explorer](https://explorer.melroy.org)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [minisatoshi.cash](https://minisatoshi.cash/)                             |   `v1.1.1`    |   ✅    |            |         |         |
-| [NeonDaThal](https://www.youtube.com/@NeonDaThal/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [One.Surgery](https://one.surgery/)                                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Opal Base](https://github.com/58opals/OpalBase)                          |   `v1.1.1`    |   ✅    |            |         |         |
-| [OpenCashDAO](https://github.com/OpenCashDAO/opencashdao-contracts)       |   `v1.1.1`    |   ✅    |            |         |         |
-| [OpenTokenRegistry](https://otr.cash/)                                    |   `v1.1.1`    |   ✅    |            |         |         |
-| [Oracles.cash](https://oracles.cash/)                                     |   `v1.1.1`    |   ✅    |            |         |         |
-| [Pantera Crypto](https://www.youtube.com/@PanteraCrypto)                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [PayButton](https://paybutton.org/)                                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Paytaca POS](https://github.com/paytaca/paytaca-pos)                     |   `v1.1.1`    |   ✅    |            |         |         |
-| [Permissionless Software Foundation](https://psfoundation.cash/)          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Pos.cash](https://github.com/softwareverde/pos-cash)                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [python-bitcoincash](https://github.com/dagurval/python-bitcoincash)      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [r/BCHCashTokens](https://www.reddit.com/r/BCHCashTokens/)                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [r/bitcoincash](https://www.reddit.com/r/bitcoincash/)                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [r/btc](https://www.reddit.com/r/btc/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [r/cashtokens](https://www.reddit.com/r/cashtokens/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [rbch](https://github.com/Rucknium/rbch)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Rostrum](https://gitlab.com/bitcoinunlimited/rostrum)                    |   `v1.1.1`    |   ✅    |            |         |         |
-| [rust-bitcoincash](https://gitlab.com/rust-bitcoincash/rust-bitcoincash/) |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ScanToPay.cash](https://scantopay.cash/)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Shinobi Art Engine](https://github.com/cashninjas/shinobi-art-engine)    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [slp.dev](https://slp.dev/)                                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SmartBCH](https://smartbch.org/)                                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Spedn](https://spedn.pl/)                                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Stamps.Cash](https://stamps.cash/)                                       |   `v1.1.1`    |   ✅    |            |         |         |
-| [SwiftFulcrum](https://github.com/58opals/SwiftFulcrum)                   |   `v1.1.1`    |   ✅    |            |         |         |
-| [Taiwan Bitcoin Cash (台灣比特幣現金)](https://twbitcoin.cash/)           |   `v1.1.1`    |   ✅    |            |         |         |
-| [Tipb.ch](https://tipb.ch)                                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Tokenaut](https://www.tokenaut.cash/)                                    |   `v1.1.1`    |   ✅    |            |         |         |
-| [TokenStork](https://tokenstork.com/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Unspent.cash](https://unspent.cash/)                                     |   `v1.1.1`    |   ✅    |            |         |         |
-| [Unspent Phi](https://unspent.app/)                                       |   `v1.1.1`    |   ✅    |            |         |         |
-| [vegabch](https://github.com/hosseinzoda/vegabch)                         |   `v1.1.1`    |   ✅    |            |         |         |
-| [Vox.cash](https://vox.cash/)                                             |   `v1.1.1`    |   ✅    |            |         |         |
-| [Watchtower](https://watchtower.cash/)                                    |   `v1.1.1`    |   ✅    |            |         |         |
+| Project                                                                   | As of Version | Approve | Disapprove | Neutral |
+| ------------------------------------------------------------------------- | :-----------: | :-----: | :--------: | :-----: |
+| [Accept Bitcoin Cash Initiative](https://acceptbitcoin.cash/)             |   `v1.1.1`    |         |            |   ➖    |
+| [ActorForth](https://github.com/ActorForth/ActorForth)                    |   `v1.1.1`    |   ✅    |            |         |
+| [awesomebitcoin.cash](https://awesomebitcoin.cash/)                       |   `v1.1.1`    |   ✅    |            |         |
+| [bch.info](https://bch.info/)                                             |   `v1.1.1`    |   ✅    |            |         |
+| [BCH Bull](https://bchbull.com/)                                          |   `v1.1.1`    |   ✅    |            |         |
+| [BCH DevSuite](https://devsuite.actorforth.org/)                          |   `v1.1.1`    |   ✅    |            |         |
+| [BCH Bliss](https://www.bliss.cash/)                                      |   `v1.1.1`    |   ✅    |            |         |
+| [BCH Blaze](https://x.com/bchblaze)                                       |   `v1.1.1`    |   ✅    |            |         |
+| [BCH Festival](https://x.com/bchfestival)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [BCH Latam](https://www.instagram.com/bchlatam/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [BCH Works](https://bitcoincashsite.com/)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [`bch-rpc-explorer`](https://github.com/sickpig/bch-rpc-explorer)         |   `v1.1.1`    |         |            |   ➖    |
+| [BCH-Cockpit](https://github.com/hosseinzoda/bchcockpit)                  |   `v1.1.1`    |   ✅    |            |         |
+| [`bchtipbot`](https://github.com/merc1er/bchtipbot)                       |   `v1.1.1`    |         |            |   ➖    |
+| [BCHMempool.cash](https://bchmempool.cash/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [BCHNinja](https://bch.ninja/)                                            |   `v1.1.1`    |   ✅    |            |         |
+| [BCMR Generator](https://github.com/mr-zwets/bcmr-generator)              |   `v1.1.1`    |   ✅    |            |         |
+| [BCMR Indexer](https://github.com/paytaca/bcmr-indexer)                   |   `v1.1.1`    |   ✅    |            |         |
+| [badgers.cash](https://badgers.cash)                                      |   `v1.1.1`    |         |            |   ➖    |
+| [bestbchwallets.com](https://www.bestbchwallets.com/)                     |   `v1.1.1`    |   ✅    |            |         |
+| [Bitauth IDE](https://ide.bitauth.com)                                    |   `v1.1.1`    |   ✅    |            |         |
+| [BitCANN](https://github.com/BitCANN/bitcann-contracts)                   |   `v1.1.1`    |   ✅    |            |         |
+| [Bitcart](https://bitcart.ai/)                                            |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcash](https://github.com/pybitcash/bitcash)                           |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin Cash Argentina](https://bitcoincashargentina.com/)               |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin Cash City](https://bchcity.com)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin Cash Explorer](https://explorer.salemkode.com/)                  |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin Cash Foundation](https://bitcoincashfoundation.org/)             |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin Cash Hangout](https://rss.com/podcasts/fiendishcrypto/)          |   `v1.1.1`    |   ✅    |            |         |
+| [Bitcoin Cash Podcast](https://bitcoincashpodcast.com/)                   |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin Cash TV](https://bitcoincashtv.com/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [BitcoinCash Nigeria](https://bch.ng/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [BitcoinCash.org](https://bitcoincash.org/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [BitcoinCashClient](https://github.com/david-shattuck/BitcoinCashClient)  |   `v1.1.1`    |   ✅    |            |         |
+| [BitcoinCashStandards.org](https://bitcoincashstandards.org/)             |   `v1.1.1`    |         |            |   ➖    |
+| [BitcoinCashResearch.org](https://bitcoincashresearch.org/)               |   `v1.1.1`    |         |            |   ➖    |
+| [BitcoinFees.cash](https://bitcoinfees.cash/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [BitcoinOutLoud](https://www.youtube.com/@BitcoinOutLoud)                 |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcore](https://github.com/bitpay/bitcore)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Bitrequest](https://www.bitrequest.io/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Bmap.app](https://bmap.app/)                                             |   `v1.1.1`    |         |            |   ➖    |
+| [CashAccount.info](https://www.cashaccount.info/)                         |   `v1.1.1`    |   ✅    |            |         |
+| [CashChannels.org](http://cashchannels.org/)                              |   `v1.1.1`    |   ✅    |            |         |
+| [CashFusion.org](https://cashfusion.org/)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [CashFusion Red Team](https://fusionstats.redteam.cash/)                  |   `v1.1.1`    |         |            |   ➖    |
+| [CashNodes.io](https://cashnodes.io/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [cashlab](https://github.com/hosseinzoda/cashlab)                         |   `v1.1.1`    |   ✅    |            |         |
+| [cashp](https://github.com/Ekliptor/cashp)                                |   `v1.1.1`    |   ✅    |            |         |
+| [CashScript](https://cashscript.org/)                                     |   `v1.1.1`    |   ✅    |            |         |
+| [CashTags](https://tags.infra.cash/)                                      |   `v1.1.1`    |   ✅    |            |         |
+| [CashTokens.org](https://cashtokens.org/)                                 |   `v1.1.1`    |   ✅    |            |         |
+| [CashTokens Airdrop Tool](https://github.com/mr-zwets/airdrop-tool)       |   `v1.1.1`    |   ✅    |            |         |
+| [CashTokens Studio](https://cashtokens.studio/)                           |   `v1.1.1`    |   ✅    |            |         |
+| [Chaingraph](https://chaingraph.cash/)                                    |   `v1.1.1`    |   ✅    |            |         |
+| [CasualBCH Podcast](casualbch.cash)                                       |   `v1.1.1`    |         |            |   ➖    |
+| [Coin Center](https://www.coincenter.org/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Developers.Cash](https://developers.cash/)                               |   `v1.1.1`    |   ✅    |            |         |
+| [Discover.cash](https://discover.cash/)                                   |   `v1.1.1`    |         |            |   ➖    |
+| [Documentation.cash](https://documentation.cash/)                         |   `v1.1.1`    |   ✅    |            |         |
+| [Easier Flipstarter](https://gitlab.com/uak/easier-flipstarter)           |   `v1.1.1`    |         |            |   ➖    |
+| [Flipstarter.cash](https://flipstarter.cash/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [Flipstarters on Bitcoin Cash](https://flipstarters.bitcoincash.network/) |   `v1.1.1`    |         |            |   ➖    |
+| [Flipwatch](https://flipwatch.org/)                                       |   `v1.1.1`    |         |            |   ➖    |
+| [Flowee Products](https://flowee.org/products/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [Fountainhead Cash](https://fountainhead.cash/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [Fulcrum](https://github.com/cculianu/Fulcrum)                            |   `v1.1.1`    |   ✅    |            |         |
+| [Future Bitcoin Cash](https://futurebitcoin.cash)                         |   `v1.1.1`    |   ✅    |            |         |
+| [Googol.cash Testnet Faucet](https://tbch.googol.cash/)                   |   `v1.1.1`    |         |            |   ➖    |
+| [Haskoin](https://github.com/haskoin/haskoin-core)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Jedex](https://github.com/bitjson/jedex)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [Johoe's Mempool Statistics](https://jochen-hoenicke.de/queue/)           |   `v1.1.1`    |   ✅    |            |         |
+| [HelpMe.Cash](https://helpme.cash/)                                       |   `v1.1.1`    |         |            |   ➖    |
+| [Hur project](https://hur-project.gitlab.io/hur-freelancers/)             |   `v1.1.1`    |         |            |   ➖    |
+| [Kallisti.cash](https://kallisti.cash/)                                   |   `v1.1.1`    |   ✅    |            |         |
+| [Knuth Libraries](https://github.com/k-nuth)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Mainnet.cash](https://mainnet.cash/)                                     |   `v1.1.1`    |   ✅    |            |         |
+| [Meep](https://github.com/gcash/meep)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [Melroy's BCH Explorer](https://explorer.melroy.org)                      |   `v1.1.1`    |         |            |   ➖    |
+| [minisatoshi.cash](https://minisatoshi.cash/)                             |   `v1.1.1`    |   ✅    |            |         |
+| [NeonDaThal](https://www.youtube.com/@NeonDaThal/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [One.Surgery](https://one.surgery/)                                       |   `v1.1.1`    |         |            |   ➖    |
+| [Opal Base](https://github.com/58opals/OpalBase)                          |   `v1.1.1`    |   ✅    |            |         |
+| [OpenCashDAO](https://github.com/OpenCashDAO/opencashdao-contracts)       |   `v1.1.1`    |   ✅    |            |         |
+| [OpenTokenRegistry](https://otr.cash/)                                    |   `v1.1.1`    |   ✅    |            |         |
+| [Oracles.cash](https://oracles.cash/)                                     |   `v1.1.1`    |   ✅    |            |         |
+| [Pantera Crypto](https://www.youtube.com/@PanteraCrypto)                  |   `v1.1.1`    |         |            |   ➖    |
+| [PayButton](https://paybutton.org/)                                       |   `v1.1.1`    |         |            |   ➖    |
+| [Paytaca POS](https://github.com/paytaca/paytaca-pos)                     |   `v1.1.1`    |   ✅    |            |         |
+| [Permissionless Software Foundation](https://psfoundation.cash/)          |   `v1.1.1`    |         |            |   ➖    |
+| [Pos.cash](https://github.com/softwareverde/pos-cash)                     |   `v1.1.1`    |         |            |   ➖    |
+| [python-bitcoincash](https://github.com/dagurval/python-bitcoincash)      |   `v1.1.1`    |         |            |   ➖    |
+| [r/BCHCashTokens](https://www.reddit.com/r/BCHCashTokens/)                |   `v1.1.1`    |         |            |   ➖    |
+| [r/bitcoincash](https://www.reddit.com/r/bitcoincash/)                    |   `v1.1.1`    |         |            |   ➖    |
+| [r/btc](https://www.reddit.com/r/btc/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [r/cashtokens](https://www.reddit.com/r/cashtokens/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [rbch](https://github.com/Rucknium/rbch)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Rostrum](https://gitlab.com/bitcoinunlimited/rostrum)                    |   `v1.1.1`    |   ✅    |            |         |
+| [rust-bitcoincash](https://gitlab.com/rust-bitcoincash/rust-bitcoincash/) |   `v1.1.1`    |         |            |   ➖    |
+| [ScanToPay.cash](https://scantopay.cash/)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [Shinobi Art Engine](https://github.com/cashninjas/shinobi-art-engine)    |   `v1.1.1`    |         |            |   ➖    |
+| [slp.dev](https://slp.dev/)                                               |   `v1.1.1`    |         |            |   ➖    |
+| [SmartBCH](https://smartbch.org/)                                         |   `v1.1.1`    |         |            |   ➖    |
+| [Spedn](https://spedn.pl/)                                                |   `v1.1.1`    |         |            |   ➖    |
+| [Stamps.Cash](https://stamps.cash/)                                       |   `v1.1.1`    |   ✅    |            |         |
+| [SwiftFulcrum](https://github.com/58opals/SwiftFulcrum)                   |   `v1.1.1`    |   ✅    |            |         |
+| [Taiwan Bitcoin Cash (台灣比特幣現金)](https://twbitcoin.cash/)           |   `v1.1.1`    |   ✅    |            |         |
+| [Tipb.ch](https://tipb.ch)                                                |   `v1.1.1`    |         |            |   ➖    |
+| [Tokenaut](https://www.tokenaut.cash/)                                    |   `v1.1.1`    |   ✅    |            |         |
+| [TokenStork](https://tokenstork.com/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [Unspent.cash](https://unspent.cash/)                                     |   `v1.1.1`    |   ✅    |            |         |
+| [Unspent Phi](https://unspent.app/)                                       |   `v1.1.1`    |   ✅    |            |         |
+| [vegabch](https://github.com/hosseinzoda/vegabch)                         |   `v1.1.1`    |   ✅    |            |         |
+| [Vox.cash](https://vox.cash/)                                             |   `v1.1.1`    |   ✅    |            |         |
+| [Watchtower](https://watchtower.cash/)                                    |   `v1.1.1`    |   ✅    |            |         |
 
 ### Industry
 
 Responses from exchanges, miners, services, and other businesses.
 
-| Organization                                                   | As of Version | Approve | Disapprove | Neutral | Pending |
-| -------------------------------------------------------------- | :-----------: | :-----: | :--------: | :-----: | :-----: |
-| [2Miners](https://2miners.com/)                                |   `v1.1.1`    |         |            |   ➖    |         |
-| [3xpl](https://3xpl.com/)                                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [58 Opals](https://58opals.com)                                |   `v1.1.1`    |   ✅    |            |         |         |
-| [A Fifth of Gaming](https://afifthofgaming.com/)               |   `v1.1.1`    |   ✅    |            |         |         |
-| [ALFAcoins](https://www.alfacoins.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Amagi Finance](https://amagi.finance/)                        |   `v1.1.1`    |   ✅    |            |         |         |
-| [Antpool](https://www.antpool.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Anycoin Direct](https://anycoindirect.eu/)                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [AnyHedge](https://anyhedge.com/)                              |   `v1.1.1`    |   ✅    |            |         |         |
-| [Aptissio](https://www.aptissio.com/)                          |   `v1.1.1`    |   ✅    |            |         |         |
-| [APMEX](https://www.apmex.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ArzPaya](https://arzpaya.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [AscendEX](https://ascendex.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Azbit](https://azbit.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bake](https://bake.io/)                                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Ballet Global](https://www.ballet.com/)                       |   `v1.1.1`    |         |            |   ➖    |         |
-| [Basepoker](https://basepoker.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BasicSwap](https://basicswapdex.com/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [B2BinPay](https://b2binpay.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BCH BULL](https://bchbull.com/)                               |   `v1.1.1`    |   ✅    |            |         |         |
-| [BCH Guru](https://bch.guru/)                                  |   `v1.1.1`    |   ✅    |            |         |         |
-| [BCH.games](https://bch.games/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BCH PUMP](https://bchpump.cash/)                              |   `v1.1.1`    |   ✅    |            |         |         |
-| [BenSwap](https://benswap.cash/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BEQUANT](https://bequant.io/)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Binance](https://www.binance.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BigONE](https://bigone.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BiggestLab](https://biggestlab.io)                            |   `v1.1.1`    |   ✅    |            |         |         |
-| [Bibox](https://www.bibox.com)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BingX](https://bingx.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BISON](https://bisonapp.com/)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bit.com](https://www.bit.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitauth.com](https://bitauth.com)                             |   `v1.1.1`    |   ✅    |            |         |         |
-| [Bitbuy](https://bitbuy.ca/)                                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitbank](https://bitbank.cc/)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitCats Heroes Club](https://bitcatsheroes.club/)             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcoin.com](https://bitcoin.com/)                            |   `v1.1.1`    |   ✅    |            |         |         |
-| [Bitcoin.de](https://www.bitcoin.de/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcoin.TM](https://bitcoin.tm/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitcoinVN](https://bitcoinvn.io/)                             |   `v1.1.1`    |   ✅    |            |         |         |
-| [Bitcoin Group SE](https://bitcoingroup.com/)                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitcoin India](https://bitcoin-india.org/)                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Biconomy](https://www.biconomy.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitdeer](https://www.bitdeer.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitexen](https://www.bitexen.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitFlyer](https://bitflyer.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitfinex](https://www.bitfinex.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitGet](https://www.bitget.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitGo](https://www.bitgo.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitGlobal](https://www.bitglobal.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitgree](https://www.bitgree.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bithumb](https://www.bithumb.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitIRA](https://www.bitira.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitjson.com](https://bitjson.com/)                            |   `v1.1.1`    |   ✅    |            |         |         |
-| [Bitkub](https://www.bitkub.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitMart](https://www.bitmart.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitMEX](https://www.bitmex.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitOasis](https://bitoasis.net/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitoPro](https://www.bitopro.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitpanda](https://www.bitpanda.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BitPay](https://bitpay.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitso](https://bitso.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitstamp](https://www.bitstamp.net/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitrue](https://www.bitrue.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bitvavo](https://bitvavo.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Blockpit](https://www.blockpit.io/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Blockchain Poker](https://blockchain.poker/)                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Blockchain.com](https://blockchain.com/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Blockchair](https://blockchair.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BlockExplorer.one](https://blockexplorer.one/)                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BlockNG](https://blockng.money/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Blockonomics](https://www.blockonomics.co/)                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BNS](https://bitbns.com/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BTC Markets](https://www.btcmarkets.net/)                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BTCBOX](https://www.btcbox.co.jp/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BTCC](https://www.btcc.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BTCPOP](https://btcpop.co/)                                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Buda.com](https://www.buda.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bullish](https://bullish.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Buy Hodl Sell](https://buyhodlsell.com/)                      |   `v1.1.1`    |   ✅    |            |         |         |
-| [BVOX](https://www.bvox.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Bybit](https://www.bybit.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [BYDFi](https://www.bydfi.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Catex](https://www.catex.io/)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Cash-Ninjas](https://ninjas.cash/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Cashrain](https://cashrain.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Cauldron](https://www.cauldron.quest/)                        |   `v1.1.1`    |   ✅    |            |         |         |
-| [CEX.IO](https://cex.io/)                                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Chaintip](https://www.chaintip.org/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Changelly](https://changelly.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ChangeHero](https://changehero.io/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ChangeNOW](https://changenow.io/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CheapAir](https://www.cheapair.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CheckBook.cash](https://checkbook.cash/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Choice](https://www.choiceapp.io/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Circle](https://www.circle.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Clementine's Nightmare](https://clementinesnightmare.io/)     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CloverPool](https://cloverpool.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Code Valley](https://codevalley.com)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coin ATM Radar](https://coinatmradar.com/)                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coin Dance](https://cash.coin.dance/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coinbase](https://www.coinbase.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coinbooth](https://coinbooth.io/)                             |   `v1.1.1`    |   ✅    |            |         |         |
-| [CoinCarp](https://www.coincarp.com/)                          |   `v1.1.1`    |         |            |   ➖    |         |
-| [Coincheck](https://coincheck.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinCodex](https://coincodex.com/)                            |   `v1.1.1`    |         |            |   ➖    |         |
-| [CoinCola](https://www.coincola.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinCraddle](https://coincraddle.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinEx](https://www.coinex.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinGate](https://coingate.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinGecko](https://www.coingecko.com/)                        |   `v1.1.1`    |         |            |   ➖    |         |
-| [Coinhub](https://coinhubatm.com/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coinify](https://www.coinify.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinLedger](https://coinledger.io/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinLoan](https://coinloan.io/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coinone](https://coinone.co.kr/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinoSwap](https://coinoswap.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coinmama](https://www.coinmama.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coinmerce](https://coinmerce.io/)                             |   `v1.1.1`    |         |            |   ➖    |         |
-| [Coinmetro](https://coinmetro.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinNexus](https://coinnexus.ch/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coinpanda](https://coinpanda.io/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinPayments](https://www.coinpayments.net/)                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinRabbit](https://coinrabbit.io/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinRemitter](https://coinremitter.com/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinSpot](https://www.coinspot.com.au/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coinsquare](https://www.coinsquare.com/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Coinstash](https://coinstash.com.au/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinStats](https://coinstats.app/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinSwitch](https://coinswitch.co/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinTracker](https://www.cointracker.io/)                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinTracking](https://cointracking.info/)                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinW](https://www.coinw.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CoinZoom](https://www.coinzoom.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Cointree](https://www.cointree.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Criptan](https://criptan.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Crypto.com](https://crypto.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CryptoCompare](https://www.cryptocompare.com/)                |   `v1.1.1`    |         |            |   ➖    |         |
-| [CryptoKnights.games](https://cryptoknights.games)             |   `v1.1.1`    |   ✅    |            |         |         |
-| [Cryptomus](https://cryptomus.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CryptoProcessing](https://cryptoprocessing.com/)              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CryptoR.AT](https://cryptor.at/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Crypto Tax Calculator](https://cryptotaxcalculator.io/)       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [CryptoWoo](https://www.cryptowoo.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Currency.com](https://currency.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Daylight Freedom Foundation](https://daylightfreedom.org)     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Deepcoin](https://www.deepcoin.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Deribit](https://www.deribit.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Dex-Trade](https://dex-trade.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [DigiFinex](https://www.digifinex.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Digital Currency Group](https://dcg.co/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Digital Surge](https://digitalsurge.com.au/)                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [EasyBit](https://easybit.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [EDX Markets](https://edxmarkets.com/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Emirex](https://emirex.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [eGifter](https://www.egifter.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [eToro](https://www.etoro.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Emerald DAO](https://emerald-dao-redemption.vercel.app/)      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [EXMO](https://exmo.com/)                                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [F2Pool](https://www.f2pool.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Fastex](https://fastex.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Foxbit](https://foxbit.com.br/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [FMFW.io](https://fmfw.io/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Flexa](https://flexa.co/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Forward Financial](https://forwardfi.com/)                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Foundry](https://foundrydigital.com/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [FundMe.cash](https://fundme.cash)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Gambling Apes Club](https://apes.cash/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Gate.com](https://gate.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [GateHub](https://gatehub.net/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Guardarian](https://guardarian.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Gemini](https://www.gemini.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [General Protocols](https://generalprotocols.com)              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Giottus](https://giottus.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Goblins.cash](https://goblins.cash/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [GoCrypto](https://gocrypto.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Godex.io](https://godex.io/)                                  |   `v1.1.1`    |         |            |   ➖    |         |
-| [GoUrl.io](https://gourl.io/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Grayscale Investments](https://grayscale.com/)                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Haveno](https://haveno-reto.com/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [HitBTC](https://hitbtc.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Hotcoin](https://www.hotcoin.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Houdini Swap](https://houdiniswap.com/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [HTX](https://www.htx.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ICONOMI](https://www.iconomi.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Independent Reserve](https://www.independentreserve.com/)     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [INDODAX](https://indodax.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Indoex](https://www.indoex.io/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [InstaCrypto](https://instacrypto.in/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [IPFS-BCH](https://ipfs-bch.pat.mn/)                           |   `v1.1.1`    |   ✅    |            |         |         |
-| [Kanga Exchange](https://kanga.exchange/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Karsha Exchange](https://karsha.biz/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Keys4Coins](https://www.keys4coins.com/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [KickEx](https://kickex.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Koinly](https://koinly.io/)                                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Konk](https://konk.market/)                                   |   `v1.1.1`    |   ✅    |            |         |         |
-| [Korbit](https://www.korbit.co.kr/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Kraken](https://kraken.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Kryptex Pool](https://pool.kryptex.com/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [KuCoin](https://www.kucoin.com/)                              |   `v1.1.1`    |         |            |   ➖    |         |
-| [Lamassu](http://lamassu.is)                                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [LATOKEN](https://latoken.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Launchpad IP](https://launchpadip.com/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [LBank](https://www.lbank.info/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [LetsExchange](https://letsexchange.io/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Life Labs HTMA](https://lifelabshtma.com/)                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Living Room of Satoshi](https://www.livingroomofsatoshi.com/) |   `v1.1.1`    |         |            |         |   ⏳    |
-| [LMAX Digital](https://www.lmaxdigital.com/)                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [LocalCoinSwap](https://localcoinswap.com/)                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Luno](https://www.luno.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Lykke](https://www.lykke.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Matrixport](https://www.matrixport.com/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [MAX Exchange](https://max.maicoin.com/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Memo Technology, Inc.](https://memo.cash/)                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Menufy](https://www.menufy.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Mercado Bitcoin](https://www.mercadobitcoin.com.br/)          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Mercuryo](https://mercuryo.io/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [MERCATOX](https://mercatox.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [MEXC](https://www.mexc.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Mining-Dutch](https://www.mining-dutch.nl/)                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [MistSwap](https://mistswap.fi/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [MoonPay](https://www.moonpay.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Moria Protocol](https://www.moria.money/)                     |   `v1.1.1`    |   ✅    |            |         |         |
-| [Mudrex](https://mudrex.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Mullvad](https://mullvad.net/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [N.exchange](https://n.exchange/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Namecheap](https://www.namecheap.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [NanoGPT](https://nano-gpt.com/)                               |   `v1.1.1`    |         |            |   ➖    |         |
-| [Ndax](https://ndax.io/)                                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Netcoins](https://netcoins.ca/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Newegg](https://www.newegg.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Newton](https://www.newton.co/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Nexo](https://nexo.io/)                                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [nft.storage](https://nft.storage/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [NFTRarity.cash](https://nftrarity.cash/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [NiceHash](https://www.nicehash.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Noise.app](https://noise.app/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [NovaDAX](https://www.novadax.com.br/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [NOWPayments](https://nowpayments.io/)                         |   `v1.1.1`    |         |            |         |   ⏳    |
-| [OceanEx](https://oceanex.pro/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [OKLink](https://oklink.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [OKX](https://www.okx.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ONUS](https://goonus.io/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [P2B](https://p2pb2b.com/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Panmoni](https://panmoni.com/)                                |   `v1.1.1`    |   ✅    |            |         |         |
-| [Paribu](https://www.paribu.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ParityUSD](https://parityusd.com/)                            |   `v1.1.1`    |   ✅    |            |         |         |
-| [PassimPay](https://passimpay.io/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Paxos](https://paxos.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Paybis](https://paybis.com)                                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [PayPal](https://paypal.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Pepi](https://pepi.cash/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Phemex](https://phemex.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Pionex](https://www.pionex.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Plisio](https://plisio.net/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Plus500](https://www.plus500.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Poolin](https://www.poolin.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Poolside Puffers](https://puffers.cash/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Poloniex](https://poloniex.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [PrimeXBT](https://primexbt.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Prompt.cash](https://prompt.cash/)                            |   `v1.1.1`    |   ✅    |            |         |         |
-| [ProBit](https://www.probit.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [PROHASHING](https://prohashing.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Publish0x](https://www.publish0x.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Purse](https://purse.io/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Read.cash](https://read.cash/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Reku](https://reku.id/)                                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Revolut](https://www.revolut.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [RamNode](https://ramnode.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Riften Labs](https://www.riftenlabs.com/)                     |   `v1.1.1`    |   ✅    |            |         |         |
-| [Robinhood](https://robinhood.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Rocketr](https://rocketr.net/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SatoshiDice](https://satoshidice.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SBICrypto Pool](https://sbicrypto.com/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ShapeShift](https://shapeshift.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SideShift.ai](https://sideshift.ai/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SIGMAPOOL](https://sigmapool.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SimpleFX](https://simplefx.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SimpleSwap](https://simpleswap.io/)                           |   `v1.1.1`    |   ✅    |            |         |         |
-| [SoloPool.org](https://solopool.org/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SolomonPierce](https://solomonpierce.com/)                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SouthXChange](https://southxchange.com/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Spice NFT Series](https://spicenft.art/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SpiderPool](https://www.spiderpool.com/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Stake](https://stake.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [StealthEX](https://stealthex.io/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Swapin](https://www.swapin.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SwapSpace](https://swapspace.co/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SwapSwop](https://swapswop.io/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Swapzone](https://swapzone.io/)                               |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Sweet](https://sweet.io/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [SWFT Blockchain](https://www.swft.pro/)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Swissquote](https://www.swissquote.com/)                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Switchere](https://switchere.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Swyftx](https://swyftx.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [TangoSwap](https://tangoswap.cash/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Tapbit](https://www.tapbit.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [TapSwap](https://tapswap.cash)                                |   `v1.1.1`    |   ✅    |            |         |         |
-| [Taxbit](https://www.taxbit.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Tether](https://tether.to/)                                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [THORSwap](https://thorswap.finance/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [The Giving Block](https://thegivingblock.com/)                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [The Real Bitcoin Club](https://therealbitcoin.club/)          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [The Reapers](https://reapers.cash/)                           |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Tidex](https://tidex.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Tokocrypto](https://www.tokocrypto.com)                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [TRASTRA](https://trastra.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Travala.com](https://www.travala.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Trijo](https://trijo.co/)                                     |   `v1.1.1`    |         |            |         |   ⏳    |
-| [TruBit](https://www.trubit.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [TxStreet](https://txstreet.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Upbit](https://www.upbit.com)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Uphold](https://uphold.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Uptick](https://uptick.co/)                                   |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Valour](https://valour.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Venmo](https://venmo.com/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ViaBTC](https://www.viabtc.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [VinDAX](https://vindax.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Visionati](https://visionati.com/)                            |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Wayex](https://www.wayex.com/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [WazirX](https://wazirx.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Wealth99](https://www.wealth99.com/)                          |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Wealthsimple](https://www.wealthsimple.com/)                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [WebMoney](https://bitcoincash.wmtransfer.com/)                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [WEEX](https://www.weex.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [WhalesHeaven](https://www.whalesheaven.com/)                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [WhiteBIT](https://whitebit.com/)                              |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Wirex](https://wirexapp.com/)                                 |   `v1.1.1`    |         |            |         |   ⏳    |
-| [WOO X](https://woox.io/)                                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [XeggeX](https://xeggex.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [XT](https://www.xt.com/)                                      |   `v1.1.1`    |         |            |         |   ⏳    |
-| [XULU.TECH](https://xulu.tech/)                                |   `v1.1.1`    |         |            |         |   ⏳    |
-| [YoBit](https://yobit.net/)                                    |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Youhodler](https://www.youhodler.com/)                        |   `v1.1.1`    |         |            |         |   ⏳    |
-| [Zaif](https://zaif.jp/)                                       |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ZebPay](https://zebpay.com/)                                  |   `v1.1.1`    |         |            |         |   ⏳    |
-| [ZenLedger](https://zenledger.io/)                             |   `v1.1.1`    |         |            |         |   ⏳    |
+| Organization                                                   | As of Version | Approve | Disapprove | Neutral |
+| -------------------------------------------------------------- | :-----------: | :-----: | :--------: | :-----: |
+| [2Miners](https://2miners.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [3xpl](https://3xpl.com/)                                      |   `v1.1.1`    |         |            |   ➖    |
+| [58 Opals](https://58opals.com)                                |   `v1.1.1`    |   ✅    |            |         |
+| [A Fifth of Gaming](https://afifthofgaming.com/)               |   `v1.1.1`    |   ✅    |            |         |
+| [ALFAcoins](https://www.alfacoins.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Amagi Finance](https://amagi.finance/)                        |   `v1.1.1`    |   ✅    |            |         |
+| [Antpool](https://www.antpool.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Anycoin Direct](https://anycoindirect.eu/)                    |   `v1.1.1`    |         |            |   ➖    |
+| [AnyHedge](https://anyhedge.com/)                              |   `v1.1.1`    |   ✅    |            |         |
+| [Aptissio](https://www.aptissio.com/)                          |   `v1.1.1`    |   ✅    |            |         |
+| [APMEX](https://www.apmex.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [ArzPaya](https://arzpaya.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [AscendEX](https://ascendex.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Azbit](https://azbit.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [Bake](https://bake.io/)                                       |   `v1.1.1`    |         |            |   ➖    |
+| [Ballet Global](https://www.ballet.com/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [Basepoker](https://basepoker.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [BasicSwap](https://basicswapdex.com/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [B2BinPay](https://b2binpay.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [BCH BULL](https://bchbull.com/)                               |   `v1.1.1`    |   ✅    |            |         |
+| [BCH Guru](https://bch.guru/)                                  |   `v1.1.1`    |   ✅    |            |         |
+| [BCH.games](https://bch.games/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [BCH PUMP](https://bchpump.cash/)                              |   `v1.1.1`    |   ✅    |            |         |
+| [BenSwap](https://benswap.cash/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [BEQUANT](https://bequant.io/)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [Binance](https://www.binance.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [BigONE](https://bigone.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [BiggestLab](https://biggestlab.io)                            |   `v1.1.1`    |   ✅    |            |         |
+| [Bibox](https://www.bibox.com)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [BingX](https://bingx.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [BISON](https://bisonapp.com/)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [Bit.com](https://www.bit.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Bitauth.com](https://bitauth.com)                             |   `v1.1.1`    |   ✅    |            |         |
+| [Bitbuy](https://bitbuy.ca/)                                   |   `v1.1.1`    |         |            |   ➖    |
+| [Bitbank](https://bitbank.cc/)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [BitCats Heroes Club](https://bitcatsheroes.club/)             |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin.com](https://bitcoin.com/)                            |   `v1.1.1`    |   ✅    |            |         |
+| [Bitcoin.de](https://www.bitcoin.de/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin.TM](https://bitcoin.tm/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [BitcoinVN](https://bitcoinvn.io/)                             |   `v1.1.1`    |   ✅    |            |         |
+| [Bitcoin Group SE](https://bitcoingroup.com/)                  |   `v1.1.1`    |         |            |   ➖    |
+| [Bitcoin India](https://bitcoin-india.org/)                    |   `v1.1.1`    |         |            |   ➖    |
+| [Biconomy](https://www.biconomy.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Bitdeer](https://www.bitdeer.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Bitexen](https://www.bitexen.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [BitFlyer](https://bitflyer.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Bitfinex](https://www.bitfinex.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [BitGet](https://www.bitget.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [BitGo](https://www.bitgo.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [BitGlobal](https://www.bitglobal.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Bitgree](https://www.bitgree.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Bithumb](https://www.bithumb.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [BitIRA](https://www.bitira.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Bitjson.com](https://bitjson.com/)                            |   `v1.1.1`    |   ✅    |            |         |
+| [Bitkub](https://www.bitkub.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [BitMart](https://www.bitmart.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [BitMEX](https://www.bitmex.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [BitOasis](https://bitoasis.net/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [BitoPro](https://www.bitopro.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Bitpanda](https://www.bitpanda.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [BitPay](https://bitpay.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Bitso](https://bitso.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [Bitstamp](https://www.bitstamp.net/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Bitrue](https://www.bitrue.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Bitvavo](https://bitvavo.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Blockpit](https://www.blockpit.io/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [Blockchain Poker](https://blockchain.poker/)                  |   `v1.1.1`    |         |            |   ➖    |
+| [Blockchain.com](https://blockchain.com/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Blockchair](https://blockchair.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [BlockExplorer.one](https://blockexplorer.one/)                |   `v1.1.1`    |         |            |   ➖    |
+| [BlockNG](https://blockng.money/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Blockonomics](https://www.blockonomics.co/)                   |   `v1.1.1`    |         |            |   ➖    |
+| [BNS](https://bitbns.com/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [BTC Markets](https://www.btcmarkets.net/)                     |   `v1.1.1`    |         |            |   ➖    |
+| [BTCBOX](https://www.btcbox.co.jp/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [BTCC](https://www.btcc.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [BTCPOP](https://btcpop.co/)                                   |   `v1.1.1`    |         |            |   ➖    |
+| [Buda.com](https://www.buda.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Bullish](https://bullish.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Buy Hodl Sell](https://buyhodlsell.com/)                      |   `v1.1.1`    |   ✅    |            |         |
+| [BVOX](https://www.bvox.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Bybit](https://www.bybit.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [BYDFi](https://www.bydfi.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Catex](https://www.catex.io/)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [Cash-Ninjas](https://ninjas.cash/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Cashrain](https://cashrain.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Cauldron](https://www.cauldron.quest/)                        |   `v1.1.1`    |   ✅    |            |         |
+| [CEX.IO](https://cex.io/)                                      |   `v1.1.1`    |         |            |   ➖    |
+| [Chaintip](https://www.chaintip.org/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Changelly](https://changelly.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [ChangeHero](https://changehero.io/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [ChangeNOW](https://changenow.io/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [CheapAir](https://www.cheapair.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [CheckBook.cash](https://checkbook.cash/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Choice](https://www.choiceapp.io/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Circle](https://www.circle.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Clementine's Nightmare](https://clementinesnightmare.io/)     |   `v1.1.1`    |         |            |   ➖    |
+| [CloverPool](https://cloverpool.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Code Valley](https://codevalley.com)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Coin ATM Radar](https://coinatmradar.com/)                    |   `v1.1.1`    |         |            |   ➖    |
+| [Coin Dance](https://cash.coin.dance/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [Coinbase](https://www.coinbase.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Coinbooth](https://coinbooth.io/)                             |   `v1.1.1`    |   ✅    |            |         |
+| [CoinCarp](https://www.coincarp.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Coincheck](https://coincheck.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [CoinCodex](https://coincodex.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [CoinCola](https://www.coincola.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [CoinCraddle](https://coincraddle.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [CoinEx](https://www.coinex.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [CoinGate](https://coingate.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [CoinGecko](https://www.coingecko.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Coinhub](https://coinhubatm.com/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [Coinify](https://www.coinify.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [CoinLedger](https://coinledger.io/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [CoinLoan](https://coinloan.io/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [Coinone](https://coinone.co.kr/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [CoinoSwap](https://coinoswap.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Coinmama](https://www.coinmama.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Coinmerce](https://coinmerce.io/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [Coinmetro](https://coinmetro.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [CoinNexus](https://coinnexus.ch/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [Coinpanda](https://coinpanda.io/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [CoinPayments](https://www.coinpayments.net/)                  |   `v1.1.1`    |         |            |   ➖    |
+| [CoinRabbit](https://coinrabbit.io/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [CoinRemitter](https://coinremitter.com/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [CoinSpot](https://www.coinspot.com.au/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [Coinsquare](https://www.coinsquare.com/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Coinstash](https://coinstash.com.au/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [CoinStats](https://coinstats.app/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [CoinSwitch](https://coinswitch.co/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [CoinTracker](https://www.cointracker.io/)                     |   `v1.1.1`    |         |            |   ➖    |
+| [CoinTracking](https://cointracking.info/)                     |   `v1.1.1`    |         |            |   ➖    |
+| [CoinW](https://www.coinw.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [CoinZoom](https://www.coinzoom.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Cointree](https://www.cointree.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Criptan](https://criptan.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Crypto.com](https://crypto.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [CryptoCompare](https://www.cryptocompare.com/)                |   `v1.1.1`    |         |            |   ➖    |
+| [CryptoKnights.games](https://cryptoknights.games)             |   `v1.1.1`    |   ✅    |            |         |
+| [Cryptomus](https://cryptomus.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [CryptoProcessing](https://cryptoprocessing.com/)              |   `v1.1.1`    |         |            |   ➖    |
+| [CryptoR.AT](https://cryptor.at/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Crypto Tax Calculator](https://cryptotaxcalculator.io/)       |   `v1.1.1`    |         |            |   ➖    |
+| [CryptoWoo](https://www.cryptowoo.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Currency.com](https://currency.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Daylight Freedom Foundation](https://daylightfreedom.org)     |   `v1.1.1`    |         |            |   ➖    |
+| [Deepcoin](https://www.deepcoin.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Deribit](https://www.deribit.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Dex-Trade](https://dex-trade.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [DigiFinex](https://www.digifinex.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Digital Currency Group](https://dcg.co/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Digital Surge](https://digitalsurge.com.au/)                  |   `v1.1.1`    |         |            |   ➖    |
+| [EasyBit](https://easybit.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [EDX Markets](https://edxmarkets.com/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [Emirex](https://emirex.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [eGifter](https://www.egifter.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [eToro](https://www.etoro.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Emerald DAO](https://emerald-dao-redemption.vercel.app/)      |   `v1.1.1`    |         |            |   ➖    |
+| [EXMO](https://exmo.com/)                                      |   `v1.1.1`    |         |            |   ➖    |
+| [F2Pool](https://www.f2pool.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Fastex](https://fastex.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Foxbit](https://foxbit.com.br/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [FMFW.io](https://fmfw.io/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [Flexa](https://flexa.co/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [Forward Financial](https://forwardfi.com/)                    |   `v1.1.1`    |         |            |   ➖    |
+| [Foundry](https://foundrydigital.com/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [FundMe.cash](https://fundme.cash)                             |   `v1.1.1`    |         |            |   ➖    |
+| [Gambling Apes Club](https://apes.cash/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [Gate.com](https://gate.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [GateHub](https://gatehub.net/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Guardarian](https://guardarian.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Gemini](https://www.gemini.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [General Protocols](https://generalprotocols.com)              |   `v1.1.1`    |         |            |   ➖    |
+| [Giottus](https://giottus.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Goblins.cash](https://goblins.cash/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [GoCrypto](https://gocrypto.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Godex.io](https://godex.io/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [GoUrl.io](https://gourl.io/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Grayscale Investments](https://grayscale.com/)                |   `v1.1.1`    |         |            |   ➖    |
+| [Haveno](https://haveno-reto.com/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [HitBTC](https://hitbtc.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Hotcoin](https://www.hotcoin.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Houdini Swap](https://houdiniswap.com/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [HTX](https://www.htx.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [ICONOMI](https://www.iconomi.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Independent Reserve](https://www.independentreserve.com/)     |   `v1.1.1`    |         |            |   ➖    |
+| [INDODAX](https://indodax.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Indoex](https://www.indoex.io/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [InstaCrypto](https://instacrypto.in/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [IPFS-BCH](https://ipfs-bch.pat.mn/)                           |   `v1.1.1`    |   ✅    |            |         |
+| [Kanga Exchange](https://kanga.exchange/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Karsha Exchange](https://karsha.biz/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [Keys4Coins](https://www.keys4coins.com/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [KickEx](https://kickex.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Koinly](https://koinly.io/)                                   |   `v1.1.1`    |         |            |   ➖    |
+| [Konk](https://konk.market/)                                   |   `v1.1.1`    |   ✅    |            |         |
+| [Korbit](https://www.korbit.co.kr/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Kraken](https://kraken.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Kryptex Pool](https://pool.kryptex.com/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [KuCoin](https://www.kucoin.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Lamassu](http://lamassu.is)                                   |   `v1.1.1`    |         |            |   ➖    |
+| [LATOKEN](https://latoken.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Launchpad IP](https://launchpadip.com/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [LBank](https://www.lbank.info/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [LetsExchange](https://letsexchange.io/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [Life Labs HTMA](https://lifelabshtma.com/)                    |   `v1.1.1`    |         |            |   ➖    |
+| [Living Room of Satoshi](https://www.livingroomofsatoshi.com/) |   `v1.1.1`    |         |            |   ➖    |
+| [LMAX Digital](https://www.lmaxdigital.com/)                   |   `v1.1.1`    |         |            |   ➖    |
+| [LocalCoinSwap](https://localcoinswap.com/)                    |   `v1.1.1`    |         |            |   ➖    |
+| [Luno](https://www.luno.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Lykke](https://www.lykke.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Matrixport](https://www.matrixport.com/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [MAX Exchange](https://max.maicoin.com/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [Memo Technology, Inc.](https://memo.cash/)                    |   `v1.1.1`    |         |            |   ➖    |
+| [Menufy](https://www.menufy.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Mercado Bitcoin](https://www.mercadobitcoin.com.br/)          |   `v1.1.1`    |         |            |   ➖    |
+| [Mercuryo](https://mercuryo.io/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [MERCATOX](https://mercatox.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [MEXC](https://www.mexc.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Mining-Dutch](https://www.mining-dutch.nl/)                   |   `v1.1.1`    |         |            |   ➖    |
+| [MistSwap](https://mistswap.fi/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [MoonPay](https://www.moonpay.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Moria Protocol](https://www.moria.money/)                     |   `v1.1.1`    |   ✅    |            |         |
+| [Mudrex](https://mudrex.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Mullvad](https://mullvad.net/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [N.exchange](https://n.exchange/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Namecheap](https://www.namecheap.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [NanoGPT](https://nano-gpt.com/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [Ndax](https://ndax.io/)                                       |   `v1.1.1`    |         |            |   ➖    |
+| [Netcoins](https://netcoins.ca/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [Newegg](https://www.newegg.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Newton](https://www.newton.co/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [Nexo](https://nexo.io/)                                       |   `v1.1.1`    |         |            |   ➖    |
+| [nft.storage](https://nft.storage/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [NFTRarity.cash](https://nftrarity.cash/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [NiceHash](https://www.nicehash.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Noise.app](https://noise.app/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [NovaDAX](https://www.novadax.com.br/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [NOWPayments](https://nowpayments.io/)                         |   `v1.1.1`    |         |            |   ➖    |
+| [OceanEx](https://oceanex.pro/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [OKLink](https://oklink.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [OKX](https://www.okx.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [ONUS](https://goonus.io/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [P2B](https://p2pb2b.com/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [Panmoni](https://panmoni.com/)                                |   `v1.1.1`    |   ✅    |            |         |
+| [Paribu](https://www.paribu.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [ParityUSD](https://parityusd.com/)                            |   `v1.1.1`    |   ✅    |            |         |
+| [PassimPay](https://passimpay.io/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [Paxos](https://paxos.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [Paybis](https://paybis.com)                                   |   `v1.1.1`    |         |            |   ➖    |
+| [PayPal](https://paypal.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Pepi](https://pepi.cash/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [Phemex](https://phemex.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Pionex](https://www.pionex.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Plisio](https://plisio.net/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Plus500](https://www.plus500.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Poolin](https://www.poolin.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Poolside Puffers](https://puffers.cash/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Poloniex](https://poloniex.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [PrimeXBT](https://primexbt.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Prompt.cash](https://prompt.cash/)                            |   `v1.1.1`    |   ✅    |            |         |
+| [ProBit](https://www.probit.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [PROHASHING](https://prohashing.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Publish0x](https://www.publish0x.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Purse](https://purse.io/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [Read.cash](https://read.cash/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Reku](https://reku.id/)                                       |   `v1.1.1`    |         |            |   ➖    |
+| [Revolut](https://www.revolut.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [RamNode](https://ramnode.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Riften Labs](https://www.riftenlabs.com/)                     |   `v1.1.1`    |   ✅    |            |         |
+| [Robinhood](https://robinhood.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Rocketr](https://rocketr.net/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [SatoshiDice](https://satoshidice.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [SBICrypto Pool](https://sbicrypto.com/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [ShapeShift](https://shapeshift.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [SideShift.ai](https://sideshift.ai/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [SIGMAPOOL](https://sigmapool.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [SimpleFX](https://simplefx.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [SimpleSwap](https://simpleswap.io/)                           |   `v1.1.1`    |   ✅    |            |         |
+| [SoloPool.org](https://solopool.org/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [SolomonPierce](https://solomonpierce.com/)                    |   `v1.1.1`    |         |            |   ➖    |
+| [SouthXChange](https://southxchange.com/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Spice NFT Series](https://spicenft.art/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [SpiderPool](https://www.spiderpool.com/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Stake](https://stake.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [StealthEX](https://stealthex.io/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [Swapin](https://www.swapin.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [SwapSpace](https://swapspace.co/)                             |   `v1.1.1`    |         |            |   ➖    |
+| [SwapSwop](https://swapswop.io/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [Swapzone](https://swapzone.io/)                               |   `v1.1.1`    |         |            |   ➖    |
+| [Sweet](https://sweet.io/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [SWFT Blockchain](https://www.swft.pro/)                       |   `v1.1.1`    |         |            |   ➖    |
+| [Swissquote](https://www.swissquote.com/)                      |   `v1.1.1`    |         |            |   ➖    |
+| [Switchere](https://switchere.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Swyftx](https://swyftx.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [TangoSwap](https://tangoswap.cash/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [Tapbit](https://www.tapbit.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [TapSwap](https://tapswap.cash)                                |   `v1.1.1`    |   ✅    |            |         |
+| [Taxbit](https://www.taxbit.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Tether](https://tether.to/)                                   |   `v1.1.1`    |         |            |   ➖    |
+| [THORSwap](https://thorswap.finance/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [The Giving Block](https://thegivingblock.com/)                |   `v1.1.1`    |         |            |   ➖    |
+| [The Real Bitcoin Club](https://therealbitcoin.club/)          |   `v1.1.1`    |         |            |   ➖    |
+| [The Reapers](https://reapers.cash/)                           |   `v1.1.1`    |         |            |   ➖    |
+| [Tidex](https://tidex.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [Tokocrypto](https://www.tokocrypto.com)                       |   `v1.1.1`    |         |            |   ➖    |
+| [TRASTRA](https://trastra.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [Travala.com](https://www.travala.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Trijo](https://trijo.co/)                                     |   `v1.1.1`    |         |            |   ➖    |
+| [TruBit](https://www.trubit.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [TxStreet](https://txstreet.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Upbit](https://www.upbit.com)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [Uphold](https://uphold.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Uptick](https://uptick.co/)                                   |   `v1.1.1`    |         |            |   ➖    |
+| [Valour](https://valour.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Venmo](https://venmo.com/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [ViaBTC](https://www.viabtc.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [VinDAX](https://vindax.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Visionati](https://visionati.com/)                            |   `v1.1.1`    |         |            |   ➖    |
+| [Wayex](https://www.wayex.com/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [WazirX](https://wazirx.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [Wealth99](https://www.wealth99.com/)                          |   `v1.1.1`    |         |            |   ➖    |
+| [Wealthsimple](https://www.wealthsimple.com/)                  |   `v1.1.1`    |         |            |   ➖    |
+| [WebMoney](https://bitcoincash.wmtransfer.com/)                |   `v1.1.1`    |         |            |   ➖    |
+| [WEEX](https://www.weex.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [WhalesHeaven](https://www.whalesheaven.com/)                  |   `v1.1.1`    |         |            |   ➖    |
+| [WhiteBIT](https://whitebit.com/)                              |   `v1.1.1`    |         |            |   ➖    |
+| [Wirex](https://wirexapp.com/)                                 |   `v1.1.1`    |         |            |   ➖    |
+| [WOO X](https://woox.io/)                                      |   `v1.1.1`    |         |            |   ➖    |
+| [XeggeX](https://xeggex.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [XT](https://www.xt.com/)                                      |   `v1.1.1`    |         |            |   ➖    |
+| [XULU.TECH](https://xulu.tech/)                                |   `v1.1.1`    |         |            |   ➖    |
+| [YoBit](https://yobit.net/)                                    |   `v1.1.1`    |         |            |   ➖    |
+| [Youhodler](https://www.youhodler.com/)                        |   `v1.1.1`    |         |            |   ➖    |
+| [Zaif](https://zaif.jp/)                                       |   `v1.1.1`    |         |            |   ➖    |
+| [ZebPay](https://zebpay.com/)                                  |   `v1.1.1`    |         |            |   ➖    |
+| [ZenLedger](https://zenledger.io/)                             |   `v1.1.1`    |         |            |   ➖    |
 
 ## Statements
 
